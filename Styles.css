@@ -1,6 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-brand{
     font-weight: 500;
-    color: #28a2cb;
+    color: #c63759;
     font-size: 24px;
     transition: 0.3s color;
 }
@@ -8,7 +17,7 @@
     width: 43px;
 }
 .login-Button{
-    background-color: #28a2cb;
+    background-color: #c63759;
     color: #FFF;
     font-size: 14px;
     padding: 8px 20px;
@@ -50,7 +59,7 @@
         transform: translateX(-50%);
         width: 0;
         height: 2px;
-        background-color: #28a2cb;
+        background-color: #c63759;
         visibility: hidden;
         transition: 0.3s ease-in-out;
     }
@@ -70,7 +79,7 @@
 }
 
 .hero-section{
-    background: url(Images/background.png) no-repeat center;
+    background: url(Images/HomeBackground.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
     
@@ -90,15 +99,20 @@
     height: 100vh;
     z-index: 1;
     position: relative;
-    margin-left: 20px;
+    margin-left: 40px;
 }
+
+/* .banner{
+    position: fixed;
+
+} */
 
 .hero-section .container h1{
     position: relative;
-    margin-top: 200px;
+    margin-top: 350px;
     font-size: 1em;
     color: #d5d3d3;
-    max-width: 700px;
+    max-width: 600px;
     transition: 0.3s;
 }
 
@@ -119,4 +133,111 @@
     color: #bbbbbb;
     max-width: 700px;
     transition: 0.3s;
+}
+
+.search-container {
+    width: 550px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    display: flex; 
+    align-items: center; 
+    margin-top: 0px;
+
+}
+
+input[type="text"][type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+}
+
+select {
+    width: 120px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 40px;
+    font-size: 15px;
+}
+
+button {
+    background-color: #c63759;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h4 span{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 10px;
+    color: #bbbbbb;
+    margin-top: 20px;
+    font-style: italic;
+    word-spacing: 4px;
+}
+
+
+/* .japan-img{
+    margin-top: 100px;
+    position: absolute;
+    left: 0px;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    background: url(Images/japan.jpg);
+    background-size: cover;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+} */
+
+#Section1{
+    height: 700;
+    background: #666777;
+    display: inline-block;
+    width: 100%;
+}
+#Section2{
+    height: 700;
+    background: #9899b4;
+    display: inline-block;
+    width: 100%;
+}
+#Section3{
+    height: 700;
+    background: #3c3d4f;
+    display: inline-block;
+    width: 100%;
+}
+#Section4{
+    height: 700;
+    background: #78797c;
+    display: inline-block;
+    width: 100%;
+}
+
+.Section-container h1{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
 }
