@@ -1,1 +1,8 @@
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+let typingEffect = new Typed("#text", {
+    strings:["Developer", "Technology ", "Accounting ", "Medical","Government"],
+    loop:true,
+    typeSpeed:100,
+    backSpeed:50,
+    backDelay:1000
+})
