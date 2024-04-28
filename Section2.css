@@ -2,28 +2,24 @@
 
 #Section2{
     height: 750px;
-    background: #E7F3F1;
     display: inline-block;
     width: 100%;
-    background-color: #f0e4f4;
+    
 }
 
-#Section3{
+/* #Section3{
     height: 800px;
     background: #9899b4;
     display: inline-block;
     width: 100%;
-}
+} */
 #Section4{
-    height: 800px;
-    background: #3c3d4f;
-    display: inline-block;
+    height: 730px;
     width: 100%;
+    justify-content: center;
 }
 #Section5{
     height: 800px;
-    background: #78797c;
-    display: inline-block;
     width: 100%;
 }
 
@@ -45,6 +41,7 @@
 
 .data-card {
   margin-top: 0em;
+  margin-left: 70px;
   display: flex;
   flex-direction: column;
   max-width: 20.75em;
@@ -93,7 +90,7 @@
 
   .link-text {
     display: block;
-    color: #753BBD;
+    color: #40b8e8;
     font-size: 1.125em;
     font-weight: 600;
     line-height: 1.2;
@@ -111,7 +108,7 @@
   }
   
   &:hover {
-    background: #753BBD;
+    background: #62cdd2;
     transform: scale(1.02);
     
     h3 {
@@ -155,7 +152,7 @@
     box-shadow: 0 2px 70px 0 rgba(110, 8, 69, 0.18);
     border-radius: 0px;
     margin: auto;
-    width: 800px;
+    width: 600px;
     border-radius: 5px;
     margin-top: 50px;
     height: 200px;
@@ -227,4 +224,11 @@
     font-size: 16px;
     text-transform: uppercase;
     border-radius: 10px;
+  }
+
+  .job-profile{
+  display: flex;
+  background: white;
+  height: 350px;
+  background-color: #f0e4f4;
   }
