@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+#Section2{
+    height: 750px;
+    background: #E7F3F1;
+    display: inline-block;
+    width: 100%;
+    background-color: #f0e4f4;
+}
+
+#Section3{
+    height: 800px;
+    background: #9899b4;
+    display: inline-block;
+    width: 100%;
+}
+#Section4{
+    height: 800px;
+    background: #3c3d4f;
+    display: inline-block;
+    width: 100%;
+}
+#Section5{
+    height: 800px;
+    background: #78797c;
+    display: inline-block;
+    width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-contain {
+  display: flex;
+  justify-content: center;
+  min-height: 10vh;
+  background-image: url(Images/jobbag.jpg);
+  border: .75em solid white;
+  padding: 2em;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.data-card {
+  margin-top: 0em;
+  display: flex;
+  flex-direction: column;
+  max-width: 20.75em;
+  overflow: hidden;
+  border-radius: .5em;
+  text-decoration: none;
+  background: white;
+  margin-left: 1em;
+  height: 20em;
+  padding: 2.75em 2.5em;
+  box-shadow: 0 1.5em 2.5em -.5em rgba(#000000, .1);
+  transition: transform .45s ease, background .45s ease;
+  
+
+  h3 {
+    color: #2E3C40;
+    font-size: 3.5em;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: .5em;
+    margin: 0 0 0.142857143em;
+    border-bottom: 2px solid #753BBD;
+    transition: color .45s ease, border .45s ease;
+  }
+
+  h4 {
+    color: #627084;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin: 0 0 1.777777778em;
+    transition: color .45s ease;
+  }
+
+  p {
+    opacity: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 1.8;
+    margin: 0 0 1.25em;
+    transform: translateY(-1em);
+    transition: opacity .45s ease, transform .5s ease;
+  }
+
+  .link-text {
+    display: block;
+    color: #753BBD;
+    font-size: 1.125em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: auto 0 0;
+    transition: color .45s ease;
+
+    svg {
+      margin-left: .5em;
+      transition: transform .6s ease;
+      
+      path {
+        transition: fill .45s ease;
+      }
+    }
+  }
+  
+  &:hover {
+    background: #753BBD;
+    transform: scale(1.02);
+    
+    h3 {
+      color: #FFFFFF;
+      border-bottom-color: #A754C4;
+    }
+
+    h4 {
+      color: #FFFFFF;
+    }
+
+    p {
+      opacity: 1;
+      transform: none;
+    }
+
+    .link-text {
+      color: #FFFFFF;
+
+      svg {
+        animation: point 1.25s infinite alternate;
+        
+        path {
+          fill: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
+@keyframes point {
+  0% {
+   transform: translateX(0);
+  }
+  100% {
+    transform: translateX(.125em);
+  }
+}
+
+.company-details {
+    box-shadow: 0 2px 70px 0 rgba(110, 8, 69, 0.18);
+    border-radius: 0px;
+    margin: auto;
+    width: 800px;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 200px;
+
+}
+
+.job-update{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: white;
+    justify-content: center;
+}
+  
+.job-update h4 strong {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+}
+
+.job-update .fa {
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #77d1b1;
+}
+
+.location {
+    color: rgb(55, 64, 89);
+}
+
+
+  .bookmark p{
+    margin-left: 5px;
+      font-size: 20px;
+      cursor: pointer;
+  
+  }
+
+  .job-update small {
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+  }
+
+  .job-update small:hover {
+    cursor: pointer;
+    background: #23c0e9;
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+    color: white;
+  }
+
+  .apply-btn {
+    height: 40px;
+    background-image: linear-gradient(to right, #6db9ef, #3aa1ca);
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .apply-btn .btn-primary {
+    padding: 0 30px;
+    float: right;
+    box-shadow: none !important;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #1d7ca1;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 10px;
+  }

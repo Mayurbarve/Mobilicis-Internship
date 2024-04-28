@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/* Nevigation Bar */
 .navbar-brand{
     font-weight: 500;
     color: #c63759;
@@ -78,6 +78,7 @@ body{
     padding: 0.5rem;
 }
 
+/* Home page content */
 .hero-section{
     background: url(Images/HomeBackground.jpg) no-repeat center;
     background-size: cover;
@@ -86,7 +87,7 @@ body{
 }
 
 .hero-section::before{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     content: "";
     position: absolute;
     top: 0;
@@ -106,7 +107,7 @@ body{
     position: fixed;
 
 } */
-
+/* Headline */
 .hero-section .container h1{
     position: relative;
     margin-top: 350px;
@@ -135,6 +136,7 @@ body{
     transition: 0.3s;
 }
 
+/* Job Search bar */
 .search-container {
     width: 550px;
     height: 100px;
@@ -210,34 +212,3 @@ h4 {
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
 } */
-
-#Section1{
-    height: 700;
-    background: #666777;
-    display: inline-block;
-    width: 100%;
-}
-#Section2{
-    height: 700;
-    background: #9899b4;
-    display: inline-block;
-    width: 100%;
-}
-#Section3{
-    height: 700;
-    background: #3c3d4f;
-    display: inline-block;
-    width: 100%;
-}
-#Section4{
-    height: 700;
-    background: #78797c;
-    display: inline-block;
-    width: 100%;
-}
-
-.Section-container h1{
-    margin: 100px;
-    text-align: center;
-    padding: 0;
-}
