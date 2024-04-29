@@ -6,7 +6,7 @@ https://mayurbarve.github.io/Mobilicis-Internship/
 
 <h2>Work in Japan Website<h2>
 
-Overview:
+<h4>Overview:
 This project is a website designed to provide information and resources for individuals seeking work opportunities in Japan. It includes sections such as job listings, contact information, and details about Japanese culture and technology.
 
 File Structure:
@@ -68,4 +68,6 @@ Contributors:
 - Mayur Dudhbarve
 
 
-Feel free to modify and customize the website according to your needs. Happy exploring and best of luck with your job search in Japan!
+Feel free to modify and customize the website according to your needs. Happy exploring and best of luck with your job search in Japan!</h4>
+
+
